@@ -5,7 +5,11 @@ export default function App() {
     return (
         <View style={styles.container}>
             <View style={styles.banner}>
+
                 <Text style={styles.name}>Muhammed Shahim Vakkattil</Text>
+
+                <Text style={styles.name}>Sruthi Johnson</Text>
+
             </View>
         </View>
     );
@@ -21,7 +25,11 @@ const styles = StyleSheet.create({
     banner: {
         width: '100%',
         padding: 20,
-        backgroundColor: 'green', 
+
+      
+
+        backgroundColor: '#6200ea', 
+
         alignItems: 'center',
         justifyContent: 'center',
         borderRadius: 5,
@@ -30,5 +38,7 @@ const styles = StyleSheet.create({
         fontSize: 28,
         fontWeight: 'bold',
         color: '#ffffff',
-    },
+
+    },
 });
+
